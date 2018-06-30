@@ -6,7 +6,17 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "/mnt/c/WSL/Simple-WSL/simplecpp.cpp"
+                "-g",
+                "-Wall", 
+                "-O2",
+                "/mnt/c/WSL/Simple-WSL-GIT/simplecpp.cpp",
+                "-I/home/lali/gsl-2.4/include",
+                "-L/home/lali/gsl-2.4/lib",
+                "-lm", 
+                "-lgsl", 
+                "-lgslcblas",
+                "&&", 
+                "./a.out"
             ],
             "group": {
                 "kind": "build",
