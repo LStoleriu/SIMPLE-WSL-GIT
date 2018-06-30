@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build simple.cpp",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g", "/mnt/c/WSL/Simple-WSL/simplecpp.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
