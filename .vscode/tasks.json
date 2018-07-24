@@ -7,15 +7,15 @@
             "command": "g++",
             "args": [
                 "-g",
-                "-Wall", 
+                "-Wall",
                 "-O2",
-                "/mnt/c/WSL/Simple-WSL-GIT/simplecpp.cpp",
+                "/mnt/e/Stoleriu/C/WSL/1_Simple-WSL-GIT/simplecpp.cpp",
                 "-I/home/lali/gsl-2.4/include",
                 "-L/home/lali/gsl-2.4/lib",
-                "-lm", 
-                "-lgsl", 
+                "-lm",
+                "-lgsl",
                 "-lgslcblas",
-                "&&", 
+                "&&",
                 "./a.out"
             ],
             "group": {
