@@ -10,8 +10,11 @@ int main()
  
     for (int n=0; n<20; ++n)
         std::cout << dis(gen) << ' ';
+
     std::cout << '\n';
+
     for (int n=0; n<5; ++n)
         std::cout << norm_dis(gen) << ' ';
+        
     std::cout << '\n';
 }
