@@ -8,12 +8,12 @@ int main()
     std::normal_distribution<double> norm_dis(0, 0.1);
     std::uniform_real_distribution<double> dis(0, 1);
  
-    for (int n=0; n<10; ++n)
+    for (int n=0; n<12; ++n)
         std::cout << dis(gen) << ' ';
 
     std::cout << '\n';
 
-    for (int n=0; n<10; ++n)
+    for (int n=0; n<12; ++n)
         std::cout << norm_dis(gen) << ' ';
         
     std::cout << '\n';
